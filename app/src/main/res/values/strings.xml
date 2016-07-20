@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PagoMultasSetPay</string>
+    <string name="lbl_Tituloapp">Pago Multas (Setpay)</string>
+    <string name="lbl_EncabezadoRelacion">Relación de Denuncias del día</string>
+    <string name="pagar">Pagar</string>
+    <string name="trae_denuncias">Trae Denuncias</string>
+
+</resources>

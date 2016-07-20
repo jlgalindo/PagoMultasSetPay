@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="6dip"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+
+    <!--android:background="@drawable/list_selector"-->
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@mipmap/euro"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+
+    </LinearLayout>
+
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/idboletin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dboidboletin"
+        android:layout_toRightOf="@+id/dboidboletin"
+        android:text="Rihanna Love the way lie"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+        />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/fechainfrac"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idboletin"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Just gona stand there and ..."
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/matricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/idboletin"
+        android:gravity="right"
+        android:text="5:45"
+        android:layout_marginRight="5dip"
+        android:textSize="15dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    <TextView
+        android:id="@+id/dboidboletin"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/dboidc60"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text=""
+        />
+</RelativeLayout>
